@@ -4,7 +4,7 @@
 # имя OC (команда uname) и 3 строки вокруг неё
 
 # Путь к файлу syslog
-syslog_file="/var/log/syslog"
+syslog_file="/var/log/system.log"
 
 # Находим строку с общем именем OC (результат команды uname)
 search_string=$(uname)
